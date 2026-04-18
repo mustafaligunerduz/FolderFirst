@@ -1,22 +1,3 @@
-# Dependencies
 node_modules/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Environment variables
 .env
-
-# Output / test folders (istersen ekle)
-dist/
-build/
-
-# IDE files
-.vscode/
-.idea/
+.DS_Store
