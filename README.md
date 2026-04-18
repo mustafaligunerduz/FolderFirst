@@ -1,22 +1,20 @@
 # FolderFirst 📁
 
-A simple Node.js tool that organizes files and folders in a directory by separating and randomly ordering them.
-
-## 🚀 What it does
-
-FolderFirst scans a directory and:
-
-- 📁 Moves all folders to the top section (in random order)
-- 📄 Moves all files to the bottom section (in random order)
-- 🔀 Renames items with an index prefix to enforce ordering
-
-> Note: File explorers do not guarantee custom ordering, so this tool uses name-based sorting (prefixing).
+A simple Node.js tool that randomly organizes folders and files in a directory.
 
 ---
 
-## ⚙️ How it works
+## 🚀 What it does
 
-1. Reads all items in a folder
-2. Separates folders and files
-3. Randomly shuffles both groups
-4. Renames items with index prefixes:
+- 📁 Folders are placed first (random order)
+- 📄 Files are placed after folders (random order)
+- 🔢 Each item is renamed with an index prefix to enforce order
+
+---
+
+## ▶️ Usage
+
+Run it on any folder:
+
+```bash id="f1a9k7"
+node index.js ./your-folder
