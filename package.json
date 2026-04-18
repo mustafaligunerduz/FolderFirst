@@ -1,1 +1,10 @@
-
+{
+  "name": "folderfirst",
+  "version": "1.0.0",
+  "description": "Random folder and file organizer",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
